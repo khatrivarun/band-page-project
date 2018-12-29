@@ -201,10 +201,6 @@ slide p{
 	color: rgb(240, 222, 121);
 }
 /*-------------------------------------------------------------------------------------*/
-/*BOOKINGS*/
-/*-------------------------------------------------------------------------------------*/
-
-/*-------------------------------------------------------------------------------------*/
 /*RESPONSIVE*/
 /*-------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1024px){
@@ -215,33 +211,5 @@ slide p{
 	.left-img > h1{
 		font-size: 30px;
 	}
-  
-  }
-  
-  @media screen and (max-width: 768px){
-  
-	/*Your style put here*/
-  
-  }
-  
-  @media screen and (max-width: 640px){
-  
-	/*Your style put here*/
-  
-  }
-  
-  @media screen and (max-width: 480px){
-  
-  }
-  
-  @media screen and (max-width: 360px){
-  
-	/*Your style put here*/
-  
-  }
-  
-  @media screen and (max-width: 320px){
-  
-	/*Your style put here*/
   
   }
