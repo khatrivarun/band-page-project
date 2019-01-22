@@ -17,11 +17,16 @@
 	<!------------------------------------------------------->
 	<!--NAVIGATION BAR-->
 	<!------------------------------------------------------->
-	<div class="navBar">
-		<a href="#home" class="home">Home</a>
-		<a href="#merch" class="merch">Merchandise</a>
-		<a href="#tourDates" class="tourDates">Tours</a>
-	</div>
+	<header>
+		<nav>
+			<a class="burger-nav"></a>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="">Tour Dates</a></li>
+				<li><a href="">Merchandise</a></li>
+			</ul>
+		</nav>
+	</header>
 	<!------------------------------------------------------->
 	<!--SLIDESHOW-->
 	<!------------------------------------------------------->
@@ -63,4 +68,20 @@
 		</div>
 	</div>
 	</body>
+	<!------------------------------------------------------->
+	<!--RESPONSIVE NAV SCRIPT-->
+	<!------------------------------------------------------->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+		crossorigin="anonymous">
+	</script>
+
+
+	<script>
+	$(document).ready(function() {
+				$(".burger-nav").on("click" , function() {
+					$("header nav ul").toggleClass("open");
+				});
+			}); 	
+	</script>
 </html>
