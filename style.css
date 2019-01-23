@@ -241,14 +241,14 @@ slide p{
 	  height: 100%;
 	  width: 100%;
 	  grid-column: 1 / 6;
-	  grid-row: 2 / 3;
+	  grid-row: 2;
 }
   
 .img-wrapper.right-img img{
 	  height: 100%;
 	  width: 100%;
 	  grid-column: 1 / 6;
-	  grid-row: 2 / 3;
+	  grid-row: 2;
 }
   
 .img-wrapper.left-img p{
@@ -267,7 +267,7 @@ slide p{
 	  
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
 
 	logo{
 		padding-bottom: 0px;
